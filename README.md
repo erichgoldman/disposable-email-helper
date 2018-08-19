@@ -8,6 +8,10 @@ _Note_: Not compatible with _Firefox_ due to inconsistenies in the implementatio
 
 
 
+[![Screenshot of Disposable Email Helper Context Menus in action](https://github.com/erichgoldman/disposable-email-helper/wiki/images/basic-menu-01.png "Screenshot of Extension in Action - Click to visit wiki documentation")](https://github.com/erichgoldman/disposable-email-helper/wiki/Basic-Usage)
+
+
+
 
 ## Features
 
