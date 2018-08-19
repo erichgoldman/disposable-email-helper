@@ -1,0 +1,73 @@
+{
+  "manifestDescription": {
+    "message":"Allows you to easily insert and manage disposable email addresses (favorite + random) on popular platforms using a context menu on text input fields."
+    ,"description":"Description in the manifest file"
+  }
+  
+  ,"optionsSectionHeader": {
+    "message":"Anonymous Email Options"
+    ,"description":"In extension options, the main header"
+  }
+  ,"optionsServiceSelectionHeader": {
+    "message":"Anonymous Email Service"
+    ,"description":"In Options Popup - Header for the option to select the service from the dropdown"
+  }
+  ,"optionsServiceSelectionHttpsFilter": {
+    "message":"Only shows sites which support HTTPS"
+    ,"description":"In Options Popup - Text for the checkbox to only show HTTPS services"
+  }
+  ,"optionsServiceSelectionHelp": {
+    "message":"Select the anonymous email service you would like to use."
+    ,"description":"In Options Popup - Text to explain the service selection option"
+  }
+  ,"optionsDefaultEmailHeader": {
+    "message":"Default Email"
+    ,"description":"In Options Popup - Header for the option to set the default email address"
+  }
+  ,"optionsDefaultEmailHelp": {
+    "message":"Enter the name to use, do not include @domain, it will be added automatically."
+    ,"description":"In Options Popup - Text to explain the default email option"
+  }
+  ,"optionsSaveButtonText": {
+    "message":"Save Settings"
+    ,"description":"In Options Popup - Text which is shown on the save button"
+  }
+  ,"optionsSavedHeader": {
+    "message":"Settings Saved"
+    ,"description":"In Options Popup - Header for green div that is shown after clicking save button, to confirm saving happened"
+  }  
+  ,"optionsSavedMessage": {
+    "message":"You may need to reload/refresh your tabs."
+    ,"description":"In Options Popup - Text that is shown after clicking save button, to confirm saving happened"
+  }
+  ,"optionsDonateLinkText": {
+    "message":"Donate &dollar;2.22"
+    ,"description":"In Options Popup - Link that leads to donation page"
+  }
+  ,"optionsHelpLinkText": {
+    "message":"Help &amp; FAQs"
+    ,"description":"In Options Popup - Link that leads to help page"
+  }
+  
+  
+  ,"menuUseDefault": {
+    "message":"Use default email: "
+    ,"description":"On Context Menu - Text that prefixes the default email address configured in options to be inserted (Note: Include separator, such as semicolon AND trailing space)"
+  }  
+  ,"menuUseRandom": {
+    "message":"Use Random: "
+    ,"description":"On Context Menu - Text that prefixes the current random email address that will be inserted (Note: Include separator, such as semicolon AND trailing space)"
+  }
+  ,"menuReuse": {
+    "message":"Reuse: "
+    ,"description":"On Context Menu - Text that prefixes a previously used random email address that will be re-inserted (Note: Include separator, such as semicolon AND trailing space)"
+  }
+  ,"menuManageSettings": {
+    "message":"Manage Settings"
+    ,"description":"On Context Menu - Text command to load the extension options page"
+  }  
+  ,"menuClearHistory": {
+    "message":"Clear History"
+    ,"description":"On Context Menu - Text command to clear the history of previous entries"
+  }    
+}

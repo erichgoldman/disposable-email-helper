@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <title>Extension Options</title>
+    
+    <style>
+      #holder {padding: 5px; }
+      #status {display:none;}
+
+    </style>
+    
+    <link rel="stylesheet" href="bulma.min.css"/>
+    
+  </head>
+
+  <body>
+
+    <nav id="holder" class="panel is-marginless">
+    
+      <p class="panel-heading" id="optionsSectionHeader">
+        Anonymous Email Options
+      </p>
+
+      <div class="panel-block">
+        <div class="field">
+          <label for="service" class="label" id="optionsServiceSelectionHeader">Anonymous Email Service</label>
+          <div class="control is-expanded">
+            <div class="is-fullwidth">
+              <select id="service"></select>
+            </div>
+            <div class="is-fullwidth">
+              <label class="help" class="checkbox">
+                &nbsp; 
+                <input type="checkbox" id="onlyShowHttps">
+                <span id="optionsServiceSelectionHttpsFilter">
+                  Only shows sites which support HTTPS
+                </span>
+              </label>
+            </div>            
+            <p class="help" id="optionsServiceSelectionHelp">Select the anonymous email service you would like to use.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-block">  
+        <div class="field ">
+          <label for="defaultEmail" class="label" id="optionsDefaultEmailHeader">Default Email</label>
+          <div class="field has-addons">
+            <p class="control">
+              <input id="defaultEmail" class="input" type="text" placeholder="Just name - e.g., 'john_smith'">
+            </p>
+            <p class="control">
+              <a id="serviceDomain" class="button is-static">
+                @domain.com
+              </a>
+            </p>
+          </div>
+          <p class="help" id="optionsDefaultEmailHelp">Enter the name to use, do not include @domain, it will be added automatically.</p>
+        </div> 
+      </div>  
+     
+      <div class="panel-block" id="status">    
+        <article  class="message is-success">
+          <div class="message-header" id="optionsSavedHeader">
+            <p>Settings Saved</p>
+          </div>
+          <div class="message-body" id="optionsSavedMessage">
+            You may need to reload/refresh your tabs.
+          </div>
+        </article>  
+      </div>
+     
+     
+      <div class="panel-block">
+        <button id="optionsSaveButtonText" class="button is-link is-outlined is-fullwidth">
+          Save Settings
+        </button>           
+      </div>
+      
+      <div class="panel"></div>
+     
+      <div class="panel">
+        <div class="tabs is-centered has-text-centered is-fullwidth">
+          <ul>
+            <li><a id="optionsDonateLinkText" href="https://github.com/erichgoldman/disposable-email-helper#donate-and-support">>Donate $2.22</a></li>
+            <li><a id="optionsHelpLinkText" href="https://github.com/erichgoldman/disposable-email-helper/wiki">Help &amp; FAQs</a></li>
+          </ul>
+        </div>      
+      </div>     
+
+    </nav> 
+ 
+    <script src="options.js"></script>    
+    <script src="services.js"></script>   
+    
+  </body>
+</html>

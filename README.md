@@ -55,7 +55,7 @@ If you have some suggestions for developing tests, these would be welcome - plea
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-We are actively looking for contributors to create translations. You can generate a pull request with a new locale and translate `messages.json` from the "en" locale. You can learn more about the internationalization process for chrome extensions in the [`chrome.i18n documentation`](https://developer.chrome.com/extensions/i18n)
+We are actively looking for contributors to create translations. You can generate a pull request with a new locale and translate `messages.json` from the "en" locale. You can learn more about the internationalization process for chrome extensions in the [`chrome.i18n documentation`](https://developer.chrome.com/extensions/i18n).
 
 If you would like to add an additional service, you can add a new entry in `services.js`. Please note, the extension only supports extensions where the mailbox can be reached by a specific URL (e.g., a URL/`GET` parameter must be specified or must be part of the path). Currently, the extension will only work where the mailbox name parameter (a) does not include the domain name and (b) is the last part of the URL (e.g., simple concatenation). Please validate any service before issuing a pull request, use HTTPS URLs where possible. Services which requires CAPTCHA or other user interaction to setup the email inbox are not compatible.
 
@@ -79,7 +79,7 @@ If you find this extension useful and it saved you some time, please help suppor
   - Donate via Bitcoin (BTC): [38BgwZpgTGpBBSLLEhuBxy6CsjdKUsEaN3](https://www.blockchain.com/btc/address/38BgwZpgTGpBBSLLEhuBxy6CsjdKUsEaN3)
   - Donate via Ethereum (ETH): [0x802dC14dB6B43571026683846ca22212e82F25b7](https://ethplorer.io/address/0x802dc14db6b43571026683846ca22212e82f25b7) 
 
-No money? Feel free to send a thank you note, drawing, love note, etc. You can also support the continued development of this extension by helping with [translations](#contributing) and [reporting any issues or problems](https://github.com/erichgoldman/disposable-email-helper/issues/).
+No money? Feel free to send a thank you note, drawing, etc. You can also support the continued development of this extension by helping with [translations](#contributing) and [reporting any issues or problems](https://github.com/erichgoldman/disposable-email-helper/issues/).
 
 ## Versioning
 
