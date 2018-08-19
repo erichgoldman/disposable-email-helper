@@ -55,7 +55,7 @@ If you have some suggestions for developing tests, these would be welcome - plea
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-We are actively looking for contributors to create translations. You can generate a pull request with a new locale and translate `messages.json` from the "en" locale. You can learn more about the internationalization process for chrome extensions in the [`chrome.i18n documentation`](https://developer.chrome.com/extensions/i18n).
+We are actively looking for contributors to create translations. You can generate a pull request with a new locale and translate [`messages.json`](_locales/en/messages.json) from the "en" locale. You can learn more about the internationalization process for chrome extensions in the [`chrome.i18n documentation`](https://developer.chrome.com/extensions/i18n).
 
 If you would like to add an additional service, you can add a new entry in `services.js`. Please note, the extension only supports extensions where the mailbox can be reached by a specific URL (e.g., a URL/`GET` parameter must be specified or must be part of the path). Currently, the extension will only work where the mailbox name parameter (a) does not include the domain name and (b) is the last part of the URL (e.g., simple concatenation). Please validate any service before issuing a pull request, use HTTPS URLs where possible. Services which requires CAPTCHA or other user interaction to setup the email inbox are not compatible.
 
