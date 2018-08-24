@@ -43,7 +43,7 @@ No external libraries are used for this extension and all code is vanilla JavaSc
 
 To load a local version, follow the docs [to load local extension](https://developer.chrome.com/extensions/faq#faq-dev-01)
 
-As a regular user, you can install the [Chrome Webstore](https://chrome.google.com/webstore/) version.
+As a regular user, you can install the [Chrome Webstore](https://chrome.google.com/webstore/detail/disposable-email-helper/cddadblbeboenbjkhieijeejfiecikel) version.
 
 
 
