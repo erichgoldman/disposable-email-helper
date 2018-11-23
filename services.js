@@ -1,7 +1,7 @@
 const SERVICES = [
   {
     "name": "Mailinator",
-    "baseUrl": "https://www.mailinator.com/v2/inbox.jsp?zone=public&query=",
+    "baseUrl": "https://www.mailinator.com/v3/inbox.jsp?zone=public&query=",
     "ending": "@mailinator.com",
   },
   {
